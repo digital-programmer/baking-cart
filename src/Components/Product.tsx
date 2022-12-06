@@ -5,7 +5,7 @@ export function Product(props: {product: ProductType}) {
     return (
     <>
         <div className="relative">
-            <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
+            <div className="h-96 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md lg:aspect-none">
                 <img src={props?.product?.url} alt={props?.product?.title} className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
             </div>
             <div className="mt-4 flex justify-between">
